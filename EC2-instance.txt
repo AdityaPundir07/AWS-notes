@@ -1,0 +1,35 @@
+<<< How to launch an instance >>>
+
+<< Windows OS >>
+
+EC2-> Region -> OS selection -> instance type (CPU, Memory, Storage) ->Key pair selection -> Security groups (HTTP, RDP) -> Launch Instance
+
+•Instance ID will be generated after doing this process.
+•Check the check box
+•Then connect
+
+IIS: Internet information services which provide web-based connection and is the default web server for windows.
+
+2/2 check-pass: Every VM after getting configured have to go through this check-pass to make sure that everything is working properly
+
+•Public IP address is released once the machine is stopped as it is with hardware and is based on the hardware
+
+->How to access your VM using RDP (remote desktop protocol) <-
+
+•After connect go to RDP client 
+•Get password
+•Upload private key
+•Decrypt password
+•Copy and paste password in notepad for easy use
+•Download remote desktop file 
+
+*For running website in our machine enable web-server services in server manager
+
+* After configuring server we can access our website and if we want to make changes in the website we have to go manually to the location where the files of that website is located in the VM
+
+* To go to the location follow these steps:
+Steps:-> win +E (This pc) -> C drive -> inetpub -> wwwroot -> website location
+TxT document
+Name- Index.html
+Replace TXT document to All files.
+
