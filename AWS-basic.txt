@@ -1,0 +1,24 @@
+AWS (Amazon web Services)
+
+Amazon Global Infrastructure: Infrastructure present all over the world
+
+Aws region: Geographical location all around the globe
+
+Aws zone: Available zone in the region
+
+* 1 data center have around 80k-100k servers
+* The distance between the datacenters is around 100 miles
+
+<<<AWS Core services>>>
+
+EC2: instance (virtual machine)
+
+VPC: Private network
+
+S3: storage services
+
+IAM: User and policy management
+
+RDS: database
+
+
