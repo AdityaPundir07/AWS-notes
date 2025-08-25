@@ -33,3 +33,20 @@ Steps:-> win +E (This pc) -> C drive -> inetpub -> wwwroot -> website location
 Name- Index.html
 Replace TXT document to All files.
 
+<<<For Web server configuration...without manually configuring instead we can use bash code>>>
+
+< code >
+
+<powershell>
+# Update the system and install IIS
+Install-WindowsFeature -Name Web-Server -IncludeManagementTools
+# Optional: Verify the IIS Installation
+Start-Sleep -Seconds 10
+if (Get-WindowsFeature -Name Web-Server) {
+    Write-Host "IIS is installed successfully."
+} else {
+    Write-Host "Failed to install IIS."
+}
+</powershell>
+
+
