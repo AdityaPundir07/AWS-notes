@@ -1,0 +1,23 @@
+-> Server 24.04
+-> instance type t2 micro
+-> Allow SSH and HTTP
+-> No need of user and password
+
+* Commands
+
+•Pwd – present working directory
+•Ls – list check
+•Sudo apt-get update – to update 
+•Sudo apt install apache2 – to install web server 
+•-y – to give permission of yes 
+•Sudo apt autoremove – to remove the wastage packages 
+•Sudo systemctl enable apache2 + sudo systemctl start apache2 – If system reboots then automatically these web servers will be configured
+•Sudo systemctl status apache2 – to check the status of the web server
+
+To check the configuration files the commands are:
+
+•Sd/var/www/html/ls
+•Sudo vim
+•W+q – to save and exit 
+•Sudo systemctl reload apache2- to reload the apache2
+
